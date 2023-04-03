@@ -36,13 +36,11 @@ function campoMinato(){
         document.querySelector('.griglia').append(divCella);
 
         divCella.addEventListener('click', function(){
-            console.log(this.innerText)
-            
 
-            
-                this.classList.add('clicked')
+            console.log(this.innerText)
+    
+            this.classList.add('clicked')
            
-                
         })
     }
 

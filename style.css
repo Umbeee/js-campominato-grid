@@ -27,8 +27,9 @@ main{
 
 footer{
     height: 5vh;
-    text-align: center;
-    padding: 20px 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
 }
 
 /* griglia */
@@ -52,8 +53,6 @@ footer{
 .clicked{
     background-color: lightblue;
 }
-
-
 
 .form-select{
     width: 80px;
