@@ -1,0 +1,61 @@
+:root{
+    --numCelle: 10;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    align-items: center;
+    padding: 20px;
+}
+
+main{
+    background-color: lightgreen;
+    height: 90vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+footer{
+    height: 5vh;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* griglia */
+.griglia{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+}
+
+.item{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / var(--numCelle));
+    height: calc(100% / var(--numCelle));
+}
+
+.clicked{
+    background-color: lightblue;
+}
+
+
+
+.form-select{
+    width: 80px;
+}
+
